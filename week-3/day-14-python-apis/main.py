@@ -56,6 +56,7 @@ def fetch_data(query):
 # ── Step 2: Parse and Display ─────────────────────────────────────────────────
 # Extract at least 3 useful pieces of information from the response.
 # Print them in a clear, labelled format — not raw JSON.
+
 def display_results(data):
 
     city = data["name"]
