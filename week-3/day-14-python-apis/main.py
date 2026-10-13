@@ -49,7 +49,8 @@ def fetch_data(query):
 
     except requests.exceptions.RequestException as error:
 
-        print(f"Network error: {
+        print(f"Network error: {error}")
+        return None
     
 
 
